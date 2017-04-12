@@ -1,3 +1,56 @@
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+bin/g*
+api/cpp/example/example
+
+Parser/Sparql*
+
+#result logs
+*.txt
+*.log
+
+#download files
+*.torrent
+*.iso 
+#compressed files
+*.tar.bz2
+*.zip
+*.tar.gz 
+*.tar.bz2
+*.7z 
+*.rar 
+#compiled objects
+*.o
+*.class
+#debug logs
+*.log
+#temp files
+*.dat
+#datasets
+*.nt
+*.n3
+#databases
+*.db
+#libs
+*.a
+*.so
+*.jar
+#pictures
+*.jpg
+*.jpeg
+*.png
+*.pdf
+#music and movie
+*.mp3
+*.wav
+*.mp4
+*.rmvb
+
 # Object files
 *.o
 *.ko
@@ -20,14 +73,24 @@
 *.so.*
 *.dylib
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
 # Debug files
 *.dSYM/
-*.su
+
+# IDE files
+cscope*
+.cproject
+.project
+tags
+.settings
+
+# latex files
+*.aux
+*.toc
+*.synctex.gz
+*.log
+*.out
+*.bak~
+
+# modules
+node_modules
+
